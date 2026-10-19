@@ -1,0 +1,4 @@
+[12/03/2026, 10:15:22] Manish Sharma: Bhai, the payment of 50000 is stuck. Call me on +91 98765 43210
+[12/03/2026, 10:17:05] Priya Nair: I already told the bank. Email the statement to priya.nair@example.com and I will forward it
+[12/03/2026, 10:18:41] Manish Sharma: The server at 192.168.1.105 keeps dropping connections. Check https://bank-portal.example.net/login before noon. Priya Nair please confirm the transfer
+[12/03/2026, 10:20:03] Priya Nair: M. Sharma said he will handle the transfer tomorrow morning

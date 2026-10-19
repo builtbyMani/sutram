@@ -1,0 +1,251 @@
+{
+  "case": "Operation Ledger",
+  "seed": 421337,
+  "artifacts": [
+    {
+      "file": "chats/chat_01.txt",
+      "source_type": "chat",
+      "note": "WhatsApp-style export, fraud coordination"
+    },
+    {
+      "file": "chats/chat_02.txt",
+      "source_type": "chat",
+      "note": "WhatsApp-style export, fraud coordination"
+    },
+    {
+      "file": "chats/chat_03.txt",
+      "source_type": "chat",
+      "note": "WhatsApp-style export, fraud coordination"
+    },
+    {
+      "file": "chats/chat_04.txt",
+      "source_type": "chat",
+      "note": "WhatsApp-style export, fraud coordination"
+    },
+    {
+      "file": "chats/chat_05.txt",
+      "source_type": "chat",
+      "note": "WhatsApp-style export, fraud coordination"
+    },
+    {
+      "file": "chats/chat_06.txt",
+      "source_type": "chat",
+      "note": "WhatsApp-style export, fraud coordination"
+    },
+    {
+      "file": "chats/chat_07.txt",
+      "source_type": "chat",
+      "note": "WhatsApp-style export, fraud coordination"
+    },
+    {
+      "file": "chats/chat_08.txt",
+      "source_type": "chat",
+      "note": "WhatsApp-style export, fraud coordination"
+    },
+    {
+      "file": "chats/chat_09.txt",
+      "source_type": "chat",
+      "note": "WhatsApp-style export, fraud coordination"
+    },
+    {
+      "file": "chats/chat_10.txt",
+      "source_type": "chat",
+      "note": "WhatsApp-style export, fraud coordination"
+    },
+    {
+      "file": "chats/chat_11.txt",
+      "source_type": "chat",
+      "note": "WhatsApp-style export, fraud coordination"
+    },
+    {
+      "file": "chats/chat_12.txt",
+      "source_type": "chat",
+      "note": "WhatsApp-style export, fraud coordination"
+    },
+    {
+      "file": "images/screenshots/screenshot_01.png",
+      "source_type": "image",
+      "note": "rendered phone screen (chat/bank), OCR-readable"
+    },
+    {
+      "file": "images/screenshots/screenshot_02.png",
+      "source_type": "image",
+      "note": "rendered phone screen (chat/bank), OCR-readable"
+    },
+    {
+      "file": "images/screenshots/screenshot_03.png",
+      "source_type": "image",
+      "note": "rendered phone screen (chat/bank), OCR-readable"
+    },
+    {
+      "file": "images/screenshots/screenshot_04.png",
+      "source_type": "image",
+      "note": "rendered phone screen (chat/bank), OCR-readable"
+    },
+    {
+      "file": "images/screenshots/screenshot_05.png",
+      "source_type": "image",
+      "note": "rendered phone screen (chat/bank), OCR-readable"
+    },
+    {
+      "file": "images/screenshots/screenshot_06.png",
+      "source_type": "image",
+      "note": "rendered phone screen (chat/bank), OCR-readable"
+    },
+    {
+      "file": "images/screenshots/screenshot_07.png",
+      "source_type": "image",
+      "note": "rendered phone screen (chat/bank), OCR-readable"
+    },
+    {
+      "file": "images/screenshots/screenshot_08.png",
+      "source_type": "image",
+      "note": "rendered phone screen (chat/bank), OCR-readable"
+    },
+    {
+      "file": "images/screenshots/screenshot_09.png",
+      "source_type": "image",
+      "note": "rendered phone screen (chat/bank), OCR-readable"
+    },
+    {
+      "file": "images/screenshots/screenshot_10.png",
+      "source_type": "image",
+      "note": "rendered phone screen (chat/bank), OCR-readable"
+    },
+    {
+      "file": "images/statements/statement_01.jpg",
+      "source_type": "image",
+      "note": "bank statement scan with EXIF"
+    },
+    {
+      "file": "images/statements/statement_02.jpg",
+      "source_type": "image",
+      "note": "bank statement scan with EXIF"
+    },
+    {
+      "file": "images/statements/statement_03.jpg",
+      "source_type": "image",
+      "note": "bank statement scan with EXIF"
+    },
+    {
+      "file": "images/statements/statement_04.jpg",
+      "source_type": "image",
+      "note": "bank statement scan with EXIF"
+    },
+    {
+      "file": "images/statements/statement_05.jpg",
+      "source_type": "image",
+      "note": "bank statement scan with EXIF"
+    },
+    {
+      "file": "images/statements/statement_06.jpg",
+      "source_type": "image",
+      "note": "bank statement scan with EXIF"
+    },
+    {
+      "file": "images/statements/statement_07.jpg",
+      "source_type": "image",
+      "note": "bank statement scan with EXIF"
+    },
+    {
+      "file": "images/statements/statement_08_edited.jpg",
+      "source_type": "image",
+      "note": "TAMPERED: amount edited vs statement_07.jpg clean twin (ELA target)"
+    },
+    {
+      "file": "images/stripped/photo_id_stripped.jpg",
+      "source_type": "image",
+      "note": "TAMPERED: photo with EXIF stripped (metadata anomaly)"
+    },
+    {
+      "file": "logs/auth_2026-11-10.log",
+      "source_type": "log",
+      "note": "auth log"
+    },
+    {
+      "file": "logs/auth_2026-11-11.log",
+      "source_type": "log",
+      "note": "auth log"
+    },
+    {
+      "file": "logs/auth_2026-11-12.log",
+      "source_type": "log",
+      "note": "auth log"
+    },
+    {
+      "file": "logs/auth_2026-11-13.log",
+      "source_type": "log",
+      "note": "auth log"
+    },
+    {
+      "file": "logs/auth_2026-11-14.log",
+      "source_type": "log",
+      "note": "auth log - CONTAINS 3AM brute-force burst + break-in (anomaly target)"
+    },
+    {
+      "file": "logs/auth_2026-11-15.log",
+      "source_type": "log",
+      "note": "auth log - CONTAINS 3AM brute-force burst + break-in (anomaly target)"
+    },
+    {
+      "file": "logs/auth_2026-11-16.log",
+      "source_type": "log",
+      "note": "auth log - CONTAINS 3AM brute-force burst + break-in (anomaly target)"
+    },
+    {
+      "file": "logs/auth_2026-11-17.log",
+      "source_type": "log",
+      "note": "auth log"
+    },
+    {
+      "file": "logs/auth_2026-11-18.log",
+      "source_type": "log",
+      "note": "auth log"
+    },
+    {
+      "file": "logs/auth_2026-11-19.log",
+      "source_type": "log",
+      "note": "auth log"
+    },
+    {
+      "file": "logs/auth_2026-11-20.log",
+      "source_type": "log",
+      "note": "auth log"
+    },
+    {
+      "file": "logs/auth_2026-11-21.log",
+      "source_type": "log",
+      "note": "auth log"
+    },
+    {
+      "file": "pcaps/pcap_01.txt",
+      "source_type": "pcap",
+      "note": "pcap summary"
+    },
+    {
+      "file": "pcaps/pcap_02.txt",
+      "source_type": "pcap",
+      "note": "pcap summary"
+    },
+    {
+      "file": "pcaps/pcap_03.txt",
+      "source_type": "pcap",
+      "note": "pcap summary - shows 60s beaconing to attacker IP"
+    },
+    {
+      "file": "pcaps/pcap_04.txt",
+      "source_type": "pcap",
+      "note": "pcap summary"
+    },
+    {
+      "file": "pcaps/pcap_05.txt",
+      "source_type": "pcap",
+      "note": "pcap summary"
+    },
+    {
+      "file": "video/pulse_face_72bpm.mp4",
+      "source_type": "video",
+      "note": "synthetic face, green channel pulsing at 72 BPM (FRD-03 target)"
+    }
+  ]
+}

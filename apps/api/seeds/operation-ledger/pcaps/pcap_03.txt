@@ -1,0 +1,9 @@
+# pcap summary (generated fixture)
+capture_start: 2026-11-17T05:00:00+05:30
+capture_end:   2026-11-17T05:30:00+05:30
+packets: 61113
+tcp: 60.1%  udp: 32.2%  icmp: 2.3%
+top_talkers:
+  192.168.1.14 -> 103.21.244.15  9.1 MB
+  192.168.1.14 -> 142.250.10.5  3.2 MB
+notes: periodic 60s beacon to 103.21.244.15 (possible C2)

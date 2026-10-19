@@ -1,0 +1,8 @@
+# pcap summary (generated fixture)
+capture_start: 2026-11-12T05:00:00+05:30
+capture_end:   2026-11-12T05:30:00+05:30
+packets: 78431
+tcp: 61.1%  udp: 31.8%  icmp: 5.6%
+top_talkers:
+  192.168.1.14 -> 103.21.244.15  10.0 MB
+  192.168.1.14 -> 142.250.10.5  4.1 MB

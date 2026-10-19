@@ -1,0 +1,27 @@
+fastapi==0.148.0
+uvicorn[standard]==0.54.0
+sqlalchemy==2.1.5
+python-multipart==0.0.32
+# Phase 2: extraction pipeline (spaCy NER, Tesseract OCR, EXIF) + OSINT fetcher.
+# scrapling[fetchers] is the HTTP Fetcher surface (curl_cffi + parsing); the
+# browser engine wheels ship with the extra but are never used in v0.1
+# (no `playwright install` is run, so no browser binaries are downloaded).
+spacy==3.8.16
+pytesseract==0.3.13
+exifread==3.5.1
+Pillow==13.0.0
+scrapling[fetchers]==0.5
+markdownify==1.2.3
+# Phase 3: fuzzy entity resolution (MiniLM embeddings). torch MUST come from
+# the CPU index first (see Dockerfile) or pip pulls the CUDA build.
+torch
+sentence-transformers==6.1.0
+# Phase 5: log anomaly detection; pulse-liveness video analysis.
+scikit-learn==1.9.1
+opencv-python-headless
+mediapipe==0.10.14
+# Phase 5: deepfake model lazy-load (OPTIONAL at runtime -- media.py degrades
+# gracefully without it). Keep the model weights OUT of the image (lazy).
+transformers
+# Phase 6: demo seeder HTTP client.
+requests==2.32.4
