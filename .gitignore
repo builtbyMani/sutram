@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.db
+*.db-wal
+*.db-shm
+
+# Runtime data (uploads + sqlite) — never commit evidence
+apps/api/data/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.log
+
+# OS
+.DS_Store
