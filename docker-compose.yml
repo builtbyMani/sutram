@@ -1,0 +1,29 @@
+services:
+  api:
+    build: ./apps/api
+    ports:
+      - "8000:8000"
+    volumes:
+      - api-data:/srv/api/data
+    healthcheck:
+      # python:3.12-slim has no curl; use the stdlib instead.
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+
+  web:
+    build: ./apps/web
+    ports:
+      - "3000:3000"
+    environment:
+      # Server-only var: the Next.js rewrite proxy targets the compose
+      # service name, so the browser always talks same-origin to Next.js.
+      API_URL: http://api:8000
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  api-data:
